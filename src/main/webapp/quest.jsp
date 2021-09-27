@@ -47,6 +47,7 @@
         <input type="submit">
 </form>
 <br>
-<a href="${pageContext.request.contextPath}/count-servlet">Summarise answers</a>
+<a href="${pageContext.request.contextPath}/count-servlet">Summarise answers</a><br>
+<a href="${pageContext.request.contextPath}/">Exit</a>
 </body>
 </html>

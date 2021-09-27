@@ -17,7 +17,7 @@ public class CountServlet extends HttpServlet {
             PrintWriter out = response.getWriter();
             out.println("<html><body>");
             out.println("<p>"+"You didn`t answer on some question"+"</p>");
-            out.println("<a href = \"\\\">" + "Get back" + "</a>");
+            out.println("<a href = \"quest.jsp\">" + "Get back" + "</a>");
             out.println("</body></html>");
 
             response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
@@ -52,7 +52,7 @@ public class CountServlet extends HttpServlet {
         out.println("<p>" + "male - " + countArr[5] + "</p>");
         out.println("<p>" + "female - " + countArr[6] + "</p>");
         out.println("<p>" + "both - " + countArr[7] + "</p>");
-        out.println("<a href = \"\\\">" + "Quiz another person" + "</a>");
+        out.println("<a href = \"quest.jsp\">" + "Quiz another person" + "</a>");
         out.println("</body></html>");
     }
 
